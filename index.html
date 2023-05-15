@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!--Definir qual a versão do HTML(5)-->
+<html lang="pt-BR">
+<!--Define linguagens para facilitar pesquisas por idioma-->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!--Esse link é a forma mais fácil para disponibilizar os recursos do Bootstrap de forma leve e atualizada, ou seja, em nuvem! Esse link foi retirado  do site oficial do Bootstrap|| Deve ser posicionado antes do link do CSS-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<!--Lincando  arquivo .CSS no .HTML-->
+
+<head>
+    <!-- Cabeça do HTML-->
+    <meta charset="UTF-8">
+    <!--codificação de caracteres da página (reconhece qualquer idioma)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agência Viagem dos Sonhos </title>
+</head>
+
+<body>
+
+    <header class="container-fluid p-2 bg-warning text-center ">
+        <!--Sistema padding-->
+        <!--Cabeçalho-->
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <!--Código copiado e modificado do BootStrap ||Trocamos "bg-light" para "bg-warning" para mudar coloração do container do menu-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Viagens dos sonhos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end bg-warning" id="navbarSupportedContent">
+                    <!--adicionado o "bg-warning"-->
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Taxas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contatos
+                            </a>
+                            <ul class="dropdown-menu bg-warning">
+                                <!--Adicionei aqui também!!-->
+                                <li><a class="dropdown-item" href="#">Agência</a></li>
+                                <li><a class="dropdown-item" href="#">Gerencia</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Proprietário </a></li>
+
+                            </ul>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+                        </li>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!--Carousel copiado do site! -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel/nordeste.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Terra contagiante</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/cataratas-iguacu.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Quedas d'águas incríveis</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/amazonas.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Terra mãe </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/chapada-veadeiros.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aventuras imperdíveis</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/angra.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Paz e serenidade</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+
+    <section class="container-fluid bg-light text-center p-5">
+        <!--Adicionado -->
+        <!--Tag de divisão para o site (caixas imaginárias)-->
+        <h2>Pacotes</h2>
+        <p>
+            <!--Parágrafos-->
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            <br><br>
+            <!--Quebra de linha-->
+            <hr>
+            <!--Adiciona linha visual na página-->
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!--Cards BootStrap-->
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="img/nossos-pacotes/gramado.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning">
+                        <h2 class="card-title">Gramado</h2>
+                        <h1 class="card-subtitle text-muted">R$5.000,00</h1>
+                        <p class="card-text text">This is a wider card with supporting text below as a natural lead-in
+                            to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Reservar</a>
+                    <div class="card-footer">
+                        <small>Em até 24x</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="img/nossos-pacotes/porto-seguro.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning">
+                        <h2 class="card-title ">Porto Seguro</h2>
+                        <h1 class="card-subtitle text-muted">R$4.000,00</h1>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit
+                            longer.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Reservar</a>
+                    <div class="card-footer">
+                        <small>Em até 24x</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="img/nossos-pacotes/rio-de-janeiro.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning">
+                        <h2 class="card-title">Rio de Janeiro</h2>
+                        <h1 class="card-subtitle text-muted">R$2.000,00</h1>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit
+                            longer.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Reservar</a>
+                    <div class="card-footer">
+                        <small>Em até 24x</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="videos">
+            <video controls width="500px">-->
+        <!--Tag para reservar vídeos; Controls: estabelece recursos para reproduzir os vídeos-->
+        <!--                 <source src="video/rabbit320.mp4" type="video/mp4"> -->
+        <!--O atributo Type reconhece o formato do vídeo-->
+        <!-- <source src="video/rabbit320.webm" type="video/webm"> -->
+        <!--Diversificando a quantidade de formatos de vídeos contribuem para possíveis erros que os navegadores possam encontrar ao reproduzir o vídeo-->
+        <!-- Seu navegador não suporta o formato do vídeo <a href="video/rabbit320.mp4">Clique aqui para baixar</a>
+            </video>
+        </div> -->
+    </section><br><br>
+    <!-----------Vídeos------------>
+
+
+
+    <section class="container-fluid bg-warning text-center p-5">
+        <h2>Taxas e Serviços</h2>
+
+
+        <table class="table table-warning border-striped table-hover table-bordered border-warning">
+            <!--Implementação de tabelas-->
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <!--Título da tabela-->
+            <thead class="table-secondary">
+                <!--Cabeçalho da tabela-->
+                <tr>
+                    <!--implementar linhas-->
+                    <th>Serviços</th>
+                    <!--colunas-->
+                    <th>Valor</th>
+                    <!--Th deixa em negrito-->
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td> Reservas de Hotel</td>
+                    <td> R$150,00</td>
+                </tr>
+
+
+                <tr>
+                    <td> Compras de Passagens</td>
+                    <td> R$100,00</td>
+                </tr>
+                <tr>
+                    <td> Aluguel de carro</td>
+                    <td> R$50,00</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+    <!--Formulário-->
+    <section class="container-fluid bg-light p-5">
+        <!--Definir seção do formulário-->
+        <h2 class="text-center">Faça já seu Orçamento</h2>
+        <!--subtítulo-->
+        <form action="" method="get">
+            <!--Tag para formulário| O elemento "Action" serve pra colocar site para receber os dados| Tag "method" é o método de requisição (GET ou POST)-->
+            <fieldset>
+
+                <legend>Dados do usuário</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome:</label>
+                    <!--A tag "LABEL" serve para apresentar o título do input-->
+                    <input type="text" class="form-control" name="nome" placeholder="Digite seu nome" required
+                        id="nome">
+                    <!--INPUT recebe alguma informação| "name" é a nomeação do elemento| placeholder o espaço subscrito-->
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label" for="email"> Email: </label>
+
+                    <input type="email" class="form-control" name="email" placeholder="Digite seu email" required
+                        id="email">
+                    <!--Atributo 'required' exige que o campo seja preenchido-->
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="dataIda"> Data de Ida:</label>
+                    <input type="date" class="form-control" name="dataIda" required id="dataIda">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="dataVolta"> Data de Volta: </label>
+                    <input type="date" class="form-control" id="dataVolta" name="dataVolta">
+                </div>
+
+
+
+
+
+                <!--  <label> Quantidade de Pessoas </label><br>
+                <input type="number" name="quantidadePessoas" min="1" max="50" required><br><br>
+                <button>Salvar</button>
+            </fieldset>
+ -->
+
+                <fieldset>
+                    <!--Tag para agrupamento dos elementos -->
+
+                    <legend>Quais serviços deseja contratar?</legend>
+                    <!--Legenda do agrupamento "fieldset"-->
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="passagens" value="passagens"
+                            id="compraPassagens">
+                        <label class="form-check-label" for="compraPassagens">
+                            Compra de passagens
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="hospedagem" value="hospedagem"
+                            id="hospedagem">
+                        <label class="form-check-label" for="hospedagem">
+
+                            Reserva de hospedagem
+
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="reservaVeiculos" value="veiculos"
+                            id="reservaVeiculos">
+                        <label class="form-check-label" for="reservaVeiculos">
+
+                            Reserva de veículos
+
+                        </label>
+                    </div>
+                    <br>
+                    <button class="btn btn-secondary">Salvar</button>
+                </fieldset>
+
+        </form>
+    </section>
+
+
+    <footer class="container-fluid bg-warning">
+        <p>Desenvolvido por Lucas Machado</p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!--Esse link, assim como o CSS BootStrap, também foi retirado do site oficial do bootstrap|| O link é posicionado antes da TAG de fechamento Body para não haver riscos do site criado possa travar. -->
+</body>
+
+
+<!-- Modal - Caixa Flutuante-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title fs-5" id="exampleModalLabel">Suas Compras</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Produto Adicionado ao carrinho !
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+                <a href="checkoutDePagamento.html" type="button" class="btn btn-success">Finalizar Compra</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
