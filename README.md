@@ -22,7 +22,7 @@ Projeto desenvolvido durante o Curso de FrontEnd do Intituto Nu & Descomplica.
 <br>
 
 ## ☁️ Deploy
-O projeto está disponível e pode ser acessado [aqui](https://lsmachado4.github.io/ShowMusic/).
+O projeto está disponível e pode ser acessado [aqui](https://lsmachado4.github.io/Agencia-de-Viagem/).
 
 <br>
 
