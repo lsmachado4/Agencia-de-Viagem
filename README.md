@@ -1,13 +1,36 @@
-Projeto de Agência de Viagens.
+>Status: concluído
 
-Referências: 
+<h1 align='center'> Projeto de Agência de Viagens </h1>
 
-    https://www.w3schools.com/ 
 
-    Curso Descomplica & Instituto Nu
+## 💻 Projeto
 
-Conceitos Abordados no Projeto: 
-> Html
+Projeto desenvolvido durante o Curso de FrontEnd do Intituto Nu & Descomplica.
+ 
+
+**Obs.:** Não responsivo.
+
+
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- BootStrap
+- Git & Github
+
+
+<br>
+
+## ☁️ Deploy
+O projeto está disponível e pode ser acessado [aqui](https://lsmachado4.github.io/ShowMusic/).
+
+<br>
+
+
+
+## 📖 Conceitos Abordados no Projeto: 
+
+### Html
 
     [x]Imagens
     [x]Listas
@@ -15,7 +38,7 @@ Conceitos Abordados no Projeto:
     [x]Tabelas
     [x]Formulários
 
-> Css 
+### Css 
     
     [x]Propriedades de Texto
     [x]Background
@@ -23,7 +46,7 @@ Conceitos Abordados no Projeto:
     [x]Menus
     [x]Estizando com pseudo-classe
     [x]Classes & Id's
-> BootStrap
+### BootStrap
     
     [x]GRID
     [x]Menu
@@ -35,3 +58,14 @@ Conceitos Abordados no Projeto:
     [x]Modal
     [x]Modelos
     [x]Templates
+
+### Referências: 
+
+    https://www.w3schools.com/ 
+
+    Curso Descomplica & Instituto Nu 
+
+
+---
+
+Desenvolvido por Lucas Machado. 💜
