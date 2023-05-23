@@ -65,9 +65,11 @@ O projeto está disponível e pode ser acessado [aqui](https://lsmachado4.github
 
 ### Referências: 
 
-    https://www.w3schools.com/ 
+- [W3School](https://www.w3schools.com/)
+- [MDN](https://developer.mozilla.org/pt-BR/ )
 
-    Curso Descomplica & Instituto Nu 
+- Curso Descomplica & Instituto Nu 
+ 
 
 
 ---
